@@ -1,4 +1,4 @@
-from .post import Post
+from blog.post import Post
 
 
 class Blog:

@@ -1,7 +1,7 @@
 from unittest import TestCase
 from blog.post import Post
 
-class Test_Post(TestCase):
+class TestPost(TestCase):
     def test_create_post(self):
         p = Post('Test', 'Test content')
 

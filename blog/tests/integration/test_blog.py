@@ -3,7 +3,7 @@ from blog.blog import Blog
 from blog.post import Post
 
 
-class Test_Blog(TestCase):
+class TestBlog(TestCase):
     def test_create_post_in_blog(self):
         b = Blog('Test', 'Author')
         b.create_post('Test', 'Test content')
