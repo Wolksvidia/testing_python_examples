@@ -25,11 +25,10 @@ def create_blog():
 
 def create_post():
     title = input('Ingrese el titulo del blog.')
-    blog = blogs[title]
     title_post = input('Ingrese el titulo del post.')
     content = input('Ingrese el contenido del post.')
-    blog.create_post(title_post,content)
-    blogs[title] = blog
+    
+    blogs[title].create_post(title_post,content)
 
 def read_blog():
     title = input('Ingrese el titulo del blog.')
@@ -40,8 +39,7 @@ def print_posts(blog):
         print_post(post)
 
 def print_post(post):
-    print(f'- {post.title}')
-    print(f'-- {post.content}')
+    print(f'- {post.title} -- {post.content}')
 
 def print_blogs():
     for key, blog in blogs.items():

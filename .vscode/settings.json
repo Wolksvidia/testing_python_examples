@@ -9,5 +9,6 @@
         "test_*.py"
     ],
     "python.unitTest.pyTestEnabled": false,
-    "python.unitTest.nosetestsEnabled": false
+    "python.unitTest.nosetestsEnabled": false,
+    "python.pythonPath": "C:\\Python37-32\\python.exe"
 }
