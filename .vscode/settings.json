@@ -4,11 +4,12 @@
     "python.unitTest.unittestArgs": [
         "-v",
         "-s",
-        "./blog/tests",
+        // "./blog/tests",
+        "./section4/app/tests",
         "-p",
         "test_*.py"
     ],
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
-    "python.pythonPath": "C:\\Python37-32\\python.exe"
+    "python.pythonPath": ".env\\Scripts\\python.exe"
 }

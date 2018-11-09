@@ -1,5 +1,5 @@
-from blog.blog import Blog
-from blog.post import Post
+from blog import Blog
+from post import Post
 
 MENU_MSG = 'Enter "c" to create a blob, "l" to list blogs, "r" to read a blog, "p" to create a post, or "q" to quit.'
 blogs = dict() #blog_name : blog object
@@ -45,3 +45,6 @@ def print_blogs():
     for key, blog in blogs.items():
         #print(f'- {key}')
         print(f'- {blog}')
+
+if __name__ == "__main__":
+    menu()
