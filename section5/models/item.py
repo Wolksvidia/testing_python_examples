@@ -1,5 +1,7 @@
 from db import db
 
+""""Mediante unittest solo se testean init y json,
+el resto requiere se otro tipo de test ya sea mock o integracion"""
 
 class ItemModel(db.Model):
     __tablename__ = 'items'
