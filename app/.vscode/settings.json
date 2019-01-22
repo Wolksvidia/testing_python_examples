@@ -4,8 +4,7 @@
     "python.unitTest.unittestArgs": [
         "-v",
         "-s",
-        "./blog/tests",
-        //"./section4/app/tests",
+        "./app/tests",
         "-p",
         "test_*.py"
     ],
